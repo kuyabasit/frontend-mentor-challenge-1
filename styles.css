@@ -101,7 +101,7 @@ body {
     flex-direction: column;
 
     max-width: 85vw;
-    margin: 5rem 0;
+    margin: 8rem 0;
   }
   .header-image {
     height: 50rem;
@@ -111,6 +111,12 @@ body {
 @media (max-width: 709px) {
   .header-info {
     text-align: center;
+  }
+  .info-title {
+    font-size: 3rem;
+  }
+  .info-sub {
+    font-size: 1.7rem;
   }
   .header-image {
     height: 40rem;
